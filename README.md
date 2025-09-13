@@ -14,10 +14,8 @@ Juga stop script dari:
 - https://ads.desustream.com/ads/* <- kampret
 
 ## Cara pasang
-1. Download folder ini.  
+1. Download folder ini > .zip > extract all  
 2. Buka Chrome → ketik `chrome://extensions/`.  
-3. Aktifin **Developer mode**.  
-4. Klik **Load unpacked**.  
-5. Pilih folder `Otakudesu`.  
-6. Beres, iklan ilang. 🎉
-7. Mantap.
+3. Aktifin **Developer mode**. > **Load unpacked**.
+4. Beres dah ilang tuh iklan sialan
+   
