@@ -1,0 +1,13 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "ads.desustream.com",
+      "resourceTypes": ["script", "image", "sub_frame", "xmlhttprequest"]
+    }
+  }
+]
