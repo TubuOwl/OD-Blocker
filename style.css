@@ -1,0 +1,13 @@
+.iklan,
+#iklantengah1,
+.iklanpost,
+.box_item_ads_popup,
+#overplay,
+#iklanbawah {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
