@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "Otakudesu Adblock",
+  "description": "Blokir elemen iklan pada otakudesu.best",
+  "version": "1.4", 
+  "icons": {
+    "48": "icon48.png"
+  },
+  "permissions": [
+    "declarativeNetRequest",
+    "declarativeNetRequestWithHostAccess"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://otakudesu.best/*", "*://www.otakudesu.best/*"],
+      "js": ["content-script.js"],
+      "css": ["style.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "host_permissions": [
+    "*://otakudesu.best/*",
+    "*://www.otakudesu.best/*"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  }
+}
