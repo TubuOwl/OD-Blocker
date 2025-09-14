@@ -13,20 +13,20 @@
         }
       });
     } catch (e) {}
-  }
+  } // console.error(e) ?? → debugging x
 
   function startObserver() {
     const observer = new MutationObserver(() => {
       hideMatching();
-    });
+    }); // "|| document.body"  ?  useless ?
 
     observer.observe(document.documentElement || document.body, {
       childList: true,
       subtree: true
     });
 
-    setInterval(hideMatching, 2000);
-  }
+    setInterval(hideMatching, 2000); 
+  } // Redundant M-obSer + set interval = double check? crazy.
 
   hideMatching();
   startObserver();
